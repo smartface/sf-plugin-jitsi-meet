@@ -248,7 +248,7 @@ export class JitsiMeetBuilder {
 	 * @method setBooleanFeatureFlag
      * @param {string} flag
      * @param {boolean} value
-     * @see {@link https://github.com/smartface/sf-plugin-jitsi-meet}
+     * @see {@link https://github.com/smartface/sf-plugin-jitsi-meet/blob/master/README.md}
 	 */
     setBooleanFeatureFlag(flag: string, value: boolean): void {
         if (this.nativeObject) {
@@ -262,7 +262,7 @@ export class JitsiMeetBuilder {
 	 * @method setBooleanFeatureFlag
      * @param {string} flag
      * @param {any} value
-     * @see {@link https://github.com/smartface/sf-plugin-jitsi-meet}
+     * @see {@link https://github.com/smartface/sf-plugin-jitsi-meet/blob/master/README.md}
 	 */
     setAnyFeatureFlag(flag: string, value: any): void {
         if (this.nativeObject) {
