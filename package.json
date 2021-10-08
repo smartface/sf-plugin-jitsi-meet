@@ -1,0 +1,30 @@
+{
+    "name": "@smartface/plugin-jitsimeet",
+    "version": "0.0.1",
+    "description": "",
+    "main": "dist/index.js",
+    "keywords": [
+        "smartface",
+        "jitsimeet",
+        "typescript",
+        "javascript"
+    ],
+    "author": {
+        "name": "Smartface",
+        "email": "info@smartface.io",
+        "url": "http://smartface.io"
+    },
+    "license": "MIT",
+    "publishConfig": {
+        "access": "public"
+    },
+    "repository": "https://github.com/smartface/sf-plugin-jitsi-meet",
+    "scripts": {
+        "watch": "tsc -w",
+        "build": "tsc"
+    },
+    "devDependencies": {
+        "@types/node": "^16.6.1",
+        "typescript": "^4.3.5"
+    }
+}
