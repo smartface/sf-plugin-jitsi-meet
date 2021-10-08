@@ -160,8 +160,8 @@ export default class JitsiMeet {
 
 export class JitsiMeetBuilder {
     nativeObject: any;
-    private _userInfo: JitsiMeetUserInfo;
-    private _serverURL: string;
+    private _userInfo!: JitsiMeetUserInfo;
+    private _serverURL!: string;
 
     get userInfo(): JitsiMeetUserInfo {
         return this._userInfo;
@@ -272,9 +272,9 @@ export class JitsiMeetBuilder {
 }
 
 export class JitsiMeetUserInfo {
-    displayName: string;
-    email: string;
-    avatar: string;
+    displayName!: string;
+    email!: string;
+    avatar!: string;
 }
 
 class JitsiPage extends Page {
